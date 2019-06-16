@@ -8,7 +8,7 @@ describe Boat do
   describe "#allowed_aboard" do
     it "returns true if inventory includes a life jacket" do
     a_boat = Boat.new
-    allowed = a_boad.allowed_aboard?(['life jacket', 'sun glasses'])
+    allowed = a_boat.allowed_aboard?(['life jacket', 'sun glasses'])
     expect(allowed).to be true
     end
   end
